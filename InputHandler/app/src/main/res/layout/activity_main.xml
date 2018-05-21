@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lonelycorn.inputhandler.MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="8dp"
+        android:text="KeyEvent.toString"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <TextView
+        android:id="@+id/key_event_string"
+        android:layout_width="309dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Hello World!"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="KeyEvent.getCharacters"
+        app:layout_constraintTop_toBottomOf="@+id/key_event_string"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <TextView
+        android:id="@+id/key_event_characters"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="TextView"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="KeyEvent.getKeyCode"
+        app:layout_constraintTop_toBottomOf="@+id/key_event_characters"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <TextView
+        android:id="@+id/key_event_key_code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="TextView"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="KeyEvent.getUnicodeChar()"
+        app:layout_constraintTop_toBottomOf="@+id/key_event_key_code"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <TextView
+        android:id="@+id/key_event_unicode_char"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="TextView"
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        tools:layout_editor_absoluteX="16dp" />
+
+</android.support.constraint.ConstraintLayout>
